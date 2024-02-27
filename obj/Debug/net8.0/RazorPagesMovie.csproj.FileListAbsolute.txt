@@ -1,0 +1,170 @@
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.GeneratedMSBuildEditorConfig.editorconfig
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.AssemblyInfoInputs.cache
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.AssemblyInfo.cs
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.csproj.CoreCompileInputs.cache
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.MvcApplicationPartsAssemblyInfo.cache
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.RazorAssemblyInfo.cache
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.RazorAssemblyInfo.cs
+c:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.csproj.AssemblyReference.cache
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\appsettings.Development.json
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\appsettings.json
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.staticwebassets.runtime.json
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.exe
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.deps.json
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.runtimeconfig.json
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.pdb
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\staticwebassets.build.json
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\staticwebassets.development.json
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\staticwebassets\msbuild.RazorPagesMovie.Microsoft.AspNetCore.StaticWebAssets.props
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\staticwebassets\msbuild.build.RazorPagesMovie.props
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RazorPagesMovie.props
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RazorPagesMovie.props
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\staticwebassets.pack.json
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\scopedcss\bundle\RazorPagesMovie.styles.css
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\scopedcss\projectbundle\RazorPagesMovie.bundle.scp.css
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.csproj.CopyComplete
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.dll
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\refint\RazorPagesMovie.dll
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.pdb
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.genruntimeconfig.cache
+C:\DBMS\RazorPagesMovie\obj\Debug\net8.0\ref\RazorPagesMovie.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Azure.Core.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Azure.Identity.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\System.Memory.Data.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\DBMS\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\appsettings.Development.json
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\appsettings.json
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.staticwebassets.runtime.json
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.exe
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.deps.json
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.runtimeconfig.json
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\RazorPagesMovie.pdb
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Azure.Core.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Azure.Identity.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\System.Memory.Data.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\DBMS final project\RazorPagesMovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.csproj.AssemblyReference.cache
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.GeneratedMSBuildEditorConfig.editorconfig
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.AssemblyInfoInputs.cache
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.AssemblyInfo.cs
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.csproj.CoreCompileInputs.cache
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.MvcApplicationPartsAssemblyInfo.cache
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.RazorAssemblyInfo.cache
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.RazorAssemblyInfo.cs
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\staticwebassets.build.json
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\staticwebassets.development.json
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\staticwebassets\msbuild.RazorPagesMovie.Microsoft.AspNetCore.StaticWebAssets.props
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\staticwebassets\msbuild.build.RazorPagesMovie.props
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RazorPagesMovie.props
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RazorPagesMovie.props
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\staticwebassets.pack.json
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\scopedcss\bundle\RazorPagesMovie.styles.css
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\scopedcss\projectbundle\RazorPagesMovie.bundle.scp.css
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.csproj.CopyComplete
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.dll
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\refint\RazorPagesMovie.dll
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.pdb
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\RazorPagesMovie.genruntimeconfig.cache
+C:\DBMS final project\RazorPagesMovie\obj\Debug\net8.0\ref\RazorPagesMovie.dll

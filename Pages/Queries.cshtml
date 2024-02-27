@@ -1,0 +1,232 @@
+@page
+@model RazorPagesMovie.Pages.QueriesModel
+@using System.Data
+@{
+    ViewData["Title"] = "Queries";
+}
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #3498db;
+        color: black;
+    }
+
+    tr:nth-child(even) {
+        background-color: #ecf0f1;
+    }
+
+    tr:hover {
+        background-color: #d4e6f1;
+    }
+
+    h1 {
+        text-align: center;
+        color: #3498db;
+    }
+
+    h2 {
+        text-align: center;
+        color: #3498db;
+    }
+
+    .text-center {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .navbar {
+        background-color: #3498db;
+        overflow: hidden;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    section {
+        margin-top: 50px;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+</style>
+
+<script>
+    window.onscroll = function () {
+        myFunction();
+    };
+
+    var navbar = document.getElementById("navbar");
+
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+<div id="navbar" class="navbar">
+    <a href="#number-of-knee-injuries">Query #1</a>
+    <a href="#impact-age-injury-occurrence">Query #2</a>
+    <a href="#recovery-plan-unique">Query #3</a>
+    <a href="#expiring-contracts-injury-history">Query #4</a>
+</div>
+
+<div class="text-center">
+    <h1 class="display-4">Queries</h1>
+</div>
+
+<section id="number-of-knee-injuries">
+<h1>Number of Knee Injuries</h1>
+@if (Model.NumofKneeInjuries != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Number of Knee Injuries</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (DataRow row in Model.NumofKneeInjuries.Rows)
+            {
+                <tr>
+                    <td>@row["NumofKneeInjuries"]</td>
+                    <td>@row["Position"]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+</section>
+
+<section id="impact-age-injury-occurrence"></section>
+<h1>The Impact Age Has On Injury Occurrence</h1>
+@if (Model.PlayersWithMultipleInjuries != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Team ID</th>
+                <th>Player Name</th>
+                <th>Years of Experience</th>
+                <th>Number of Injuries</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (DataRow row in Model.PlayersWithMultipleInjuries.Rows)
+            {
+                <tr>
+                    <td>@row["TeamID"]</td>
+                    <td>@row["PlayerName"]</td>
+                    <td>@row["YearsExperience"]</td>
+                    <td>@row["NumberofInjuries"]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<section id="recovery-plan-unique"></section>
+<h1>Recovery Plan Unique To Each Player’s Injury</h1>
+@if (Model.TeamInjuries != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Team Name</th>
+                <th>Team ID</th>
+                <th>Player ID</th>
+                <th>Player Name</th>
+                <th>Contract Length Rem</th>
+                <th>Salary Per Year</th>
+                <th>Role On Team</th>
+                <th>Injury Name</th>
+                <th>Injury Severity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (DataRow row in Model.TeamInjuries.Rows)
+            {
+                <tr>
+                    <td>@row["TeamName"]</td>
+                    <td>@row["TeamID"]</td>
+                    <td>@row["PlayerID"]</td>
+                    <td>@row["PlayerName"]</td>
+                    <td>@row["ContractLengthRem"]</td>
+                    <td>@row["SalaryPerYear"]</td>
+                    <td>@row["RoleOnTeam"]</td>
+                    <td>@row["InjuryName"]</td>
+                    <td>@row["InjurySeverity"]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<section id="expiring-contracts-injury-history"></section>
+<h1>Examining Expiring Contracts Injury History</h1>
+@if (Model.SevereInjuries != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Recovery Plan ID</th>
+                <th>Injury Name</th>
+                <th>Injury Details</th>
+                <th>Injury Severity</th>
+                <th>Game Type</th>
+                <th>Next Steps</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (DataRow row in Model.SevereInjuries.Rows)
+            {
+                <tr>
+                    <td>@row["RecoveryPlanID"]</td>
+                    <td>@row["InjuryName"]</td>
+                    <td>@row["InjuryDetails"]</td>
+                    <td>@row["InjurySeverity"]</td>
+                    <td>@row["GameType"]</td>
+                    <td>@row["NextSteps"]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

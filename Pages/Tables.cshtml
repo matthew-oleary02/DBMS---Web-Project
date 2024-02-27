@@ -1,0 +1,386 @@
+﻿@page
+@model RazorPagesMovie.Pages.IndexModel
+@using System.Data
+@{
+    ViewData["Title"] = "Tables";
+}
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #3498db;
+        color: black;
+    }
+
+    tr:nth-child(even) {
+        background-color: #ecf0f1;
+    }
+
+    tr:hover {
+        background-color: #d4e6f1;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .text-center {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h1, h2, h3 {
+        color: #3498db;
+    }
+
+    .navbar {
+        background-color: #3498db;
+        overflow: hidden;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    section {
+        margin-top: 50px;
+    }
+</style>
+
+<script>
+    window.onscroll = function () {
+        myFunction();
+    };
+
+    var navbar = document.getElementById("navbar");
+
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+<div id="navbar" class="navbar">
+    <a href="#player-attributes">Player Attributes</a>
+    <a href="#industry">Industry</a>
+    <a href="#player-injury-records">Player Injury Records</a>
+    <a href="#injury-type">Injury Type</a>
+    <a href="#medical-employees">Medical Employees</a>
+    <a href="#player-stats">Player Stats</a>
+    <a href="#players">Players</a>
+    <a href="#recovery-plan">Recovery Plan</a>
+    <a href="#teams">Teams</a>
+</div>
+
+<div class="text-center">
+    <h1 class="display-4">Tables</h1>
+</div>
+
+<section id="player-attributes">
+<h2>Player Attributes</h2>
+<ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Attribute ID</th>
+                <th>Years of Experience</th>
+                <th>Height (inches)</th>
+                <th>Weight (lbs)</th>
+                <th>Player ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ma in Model.MattAttributes)
+            {
+                <tr>
+                    <td>@ma.AttributesID</td>
+                    <td>@ma.YearsExperience</td>
+                    <td>@ma.Height_inches</td>
+                    <td>@ma.Weight_lbs</td>
+                    <td>@ma.PlayerID</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</ul>
+</section>
+
+
+<section id="industry">
+<h2>Industry</h2>
+<ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Industry ID</th>
+                <th>Industry Type</th>
+                <th>Industry Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mi in Model.MattIndustry)
+            {
+                <tr>
+                    <td>@mi.IndustryID</td>
+                    <td>@mi.IndustryType</td>
+                    <td>@mi.IndustryLevel</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</ul>
+</section>
+
+<section id="player-injury-records">
+<h2>Player Injury Records</h2>
+<ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Injury Record ID</th>
+                <th>Date of Injury</th>
+                <th>Game Number</th>
+                <th>Game Type</th>
+                <th>Player ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mir in Model.MattInjuryRecords)
+            {
+                <tr>
+                    <td>@mir.InjuryRecordID</td>
+                    <td>@mir.DateOfInjury</td>
+                    <td>@mir.GameNumber</td>
+                    <td>@mir.GameType</td>
+                    <td>@mir.PlayerID</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</ul>
+</section>
+
+<section id="injury-type">
+<h2>Injury Type</h2>
+<ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Injury Type ID</th>
+                <th>Injury Name</th>
+                <th>Injury Details</th>
+                <th>Injury Severity</th>
+                <th>Injury Record ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mit in Model.MattInjuryType)
+            {
+                <tr>
+                    <td>@mit.InjuryTypeID</td>
+                    <td>@mit.InjuryName</td>
+                    <td>@mit.InjuryDetails</td>
+                    <td>@mit.InjurySeverity</td>
+                    <td>@mit.InjuryRecordID</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</ul>
+</section>
+
+<section id="medical-employees">
+<h2>Medical Employees</h2>
+<ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Medical Employee ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Position/Expertise</th>
+                <th>Years of Experience</th>
+                <th>Team ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mme in Model.MattMedicalEmployees)
+            {
+                <tr>
+                    <td>@mme.MedicalEmployeeID</td>
+                    <td>@mme.FirstName</td>
+                    <td>@mme.LastName</td>
+                    <td>@mme.Position_or_Experise</td>
+                    <td>@mme.YearsExperience</td>
+                    <td>@mme.TeamID</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</ul>
+</section>
+
+<section id="player-stats">
+<h2>Player Stats</h2>
+<ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Player Stats ID</th>
+                <th>Points Per Game</th>
+                <th>Assists</th>
+                <th>Rebounds</th>
+                <th>Steals</th>
+                <th>Blocks</th>
+                <th>Player ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mps in Model.MattPlayerStats)
+            {
+                <tr>
+                    <td>@mps.PlayerStatsID</td>
+                    <td>@mps.PointsPerGame</td>
+                    <td>@mps.Assists</td>
+                    <td>@mps.Rebounds</td>
+                    <td>@mps.Steals</td>
+                    <td>@mps.Blocks</td>
+                    <td>@mps.PlayerID</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</ul>
+</section>
+
+<section id="players">
+<h2>Players</h2>
+<ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Player ID</th>
+                <th>Player Name</th>
+                <th>Position</th>
+                <th>College</th>
+                <th>Contract Length Rem</th>
+                <th>Salary Per Year ($)</th>
+                <th>Role On Team</th>
+                <th>Team ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mp in Model.MattPlayers)
+            {
+                <tr>
+                    <td>@mp.PlayerID</td>
+                    <td>@mp.PlayerName</td>
+                    <td>@mp.Position</td>
+                    <td>@mp.College</td>
+                    <td>@mp.ContractLengthRem</td>
+                    <td>@mp.SalaryPerYear</td>
+                    <td>@mp.RoleOnTeam</td>
+                    <td>@mp.TeamID</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</ul>
+</section>
+
+<section id="recovery-plan">
+<h2>Recovery Plan</h2>
+<ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Recovery Plan ID</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Recovery Status</th>
+                <th>Next Steps</th>
+                <th>Injury Type ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mrp in Model.MattRecoveryPlan)
+            {
+                <tr>
+                    <td>@mrp.RecoveryPlanID</td>
+                    <td>@mrp.StartDate</td>
+                    <td>@mrp.EndDate</td>
+                    <td>@mrp.RecoveryStatus</td>
+                    <td>@mrp.NextSteps</td>
+                    <td>@mrp.InjuryTypeID</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</ul>
+</section>
+
+<section id="teams">
+<h2>Teams</h2>
+<ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Team ID</th>
+                <th>Team Location City</th>
+                <th>Team Location State</th>
+                <th>Team Name</th>
+                <th>Industry ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mt in Model.MattTeam)
+            {
+                <tr>
+                    <td>@mt.TeamID</td>
+                    <td>@mt.TeamLocationCity</td>
+                    <td>@mt.TeamLocationState</td>
+                    <td>@mt.TeamName</td>
+                    <td>@mt.IndustryID</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</ul>
+</section>
