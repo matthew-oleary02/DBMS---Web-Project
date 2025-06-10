@@ -50,11 +50,13 @@ INNER JOIN [Injury Type] ON [Injury Records].InjuryRecordID = [Injury Type].Inju
 WHERE InjuryName LIKE '%knee%'
 GROUP BY Position
 ORDER BY NumofKneeInjuries DESC;
+```
 
+```sql
 -- Severe injuries with recovery steps
 SELECT RecoveryPlanID, InjuryName, InjuryDetails, InjurySeverity, GameType, NextSteps
 FROM [Injury Records]
 INNER JOIN [Injury Type] ON [Injury Records].InjuryRecordID = [Injury Type].InjuryRecordID
 INNER JOIN [Recovery Plan] ON [Injury Type].InjuryTypeID = [Recovery Plan].InjuryTypeID
 WHERE InjurySeverity = 'Severe';
-
+```
