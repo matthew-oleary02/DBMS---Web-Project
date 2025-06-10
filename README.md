@@ -51,7 +51,6 @@ WHERE InjuryName LIKE '%knee%'
 GROUP BY Position
 ORDER BY NumofKneeInjuries DESC;
 
-```sql
 -- Severe injuries with recovery steps
 SELECT RecoveryPlanID, InjuryName, InjuryDetails, InjurySeverity, GameType, NextSteps
 FROM [Injury Records]
